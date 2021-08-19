@@ -7,6 +7,8 @@ namespace UserRegistration
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to the user registration validation using c#");
+            Patterns pattern = new Patterns();
+            pattern.IsValidFirstName();
         }
     }
 }
