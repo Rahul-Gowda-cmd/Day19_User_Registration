@@ -11,6 +11,7 @@ namespace UserRegistration
             pattern.IsValidFirstName();
             pattern.IsValidLastName();
             pattern.IsValidEmail();
+            pattern.IsValidPhoneNo();
         }
     }
 }
